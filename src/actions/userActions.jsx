@@ -1,0 +1,1 @@
+export function setUser(user){    console.log(user);    return (dispatch) => {        dispatch({            type: "SET_USER",            payload: user    })    }}

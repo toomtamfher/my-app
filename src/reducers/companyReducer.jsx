@@ -1,0 +1,1 @@
+const initiaState = {    company: {        name: "latteSoft"    }}export default function reducer(state = initiaState, action) {    switch (action.type){        case "SET_USER":{            return {                ...state,                company: action.payload            }        }        default:{            return state        }    }}

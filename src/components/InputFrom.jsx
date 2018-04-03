@@ -1,0 +1,1 @@
+import React,{Component} from 'react'class InputFrom extends Component{ render(){        return(            <div>                <input onChange={this.props.__onChangeHander.bind(this)} type={"text"}/>            </div>        )    }}export default InputFrom
